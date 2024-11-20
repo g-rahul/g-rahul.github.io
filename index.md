@@ -2,122 +2,23 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## About Me
+I'm an Electrical and Computer Engineer working at Arm on Platform Security Compliance. Previously, I worked as an RF engineer at Qualcomm (2021-2023) in the Modem Software Team. I earned my Electrical and Electronics Engineering bachelor's from RVCE, Bangalore in 2021.
 
-[Link to another page](./another-page.html).
+My expertise lies in embedded software designs, device driver development, and other hardware-centric software design. I have been working with Arm A and M Class devices since last three years. I am proficient in developing and deploying bare metal implementations for embedded targets, designing end-to-end protocol stacks, and bringing up software for application-class devices from scratch. Additionally, I have over five years of experience in PCB CAD design and I'm always eager to explore and experiment with interesting hardware projects.
 
-There should be whitespace between paragraphs.
+My focus over the past year has been on the security paradigms of embedded systems. I aim to address security challenges in edge devices and have been actively contributing to NuttX and PX4.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## What I do ?
 
-# Header 1
+### ARM
+If interested in my work on FF-A, Please check out FFA ACS project - https://github.com/ARM-software/ff-a-acs 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### Nuttx
 
-## Header 2
+### PX4
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
+###
 ```
 The final element.
 ```
