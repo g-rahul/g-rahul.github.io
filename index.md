@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<br/><br/>
+<br/>
 ## About Me
 I'm an Electrical and Computer Engineer working at Arm on Platform Security Compliance. Previously, I worked as an RF engineer at Qualcomm (2021-2023) in the Modem Software Team. I earned my Electrical and Electronics Engineering bachelor's from RVCE, Bangalore in 2021.
 
