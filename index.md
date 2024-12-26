@@ -1,5 +1,7 @@
 ---
 layout: default
+title: About Me
+permalink: /
 ---
 <br/>
 ## About Me
