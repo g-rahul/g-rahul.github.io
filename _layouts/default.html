@@ -50,11 +50,21 @@
         </ul>
         {% endif %}
       </header>
+
       <section>
-
-      {{ content }}
-
+        <div class="container">
+          <!-- Navigation Bar -->
+          <nav class="navbar">
+            <ul class="navbar-links">
+              <li><a href="{{ "/index/" | relative_url }}" class="button">About</a></li>
+              <li><a href="{{ "/projects/" | relative_url }}" class="button">Projects</a></li>
+              <li><a href="{{ "/docs/" | relative_url }}" class="button">Docs</a></li>
+            </ul>
+          </nav>
+          {{ content }}
+        </div>
       </section>
+
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
