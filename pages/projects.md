@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 <br/>
-## My Awesome Projects
+## Work in progress, i will update soon
 
 _yay_
 

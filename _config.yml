@@ -1,6 +1,6 @@
 title: Rahul Guruprakash
 logo: /assets/img/logo.png
-description: Thanks for finding my site, please feel free to take a tour :)
+description: Engineer@Arm - System Compliance ATG
 show_downloads: false
 show_socialmedia: true
 google_analytics:
@@ -8,3 +8,4 @@ theme: jekyll-theme-minimal
 social_media:
   github: "https://github.com/g-rahul"
   linkedin: "https://linkedin.com/in/rahul-g-055720175"
+  stackexchange: "https://stackoverflow.com/users/22665914/rahul-guruprakash"

@@ -39,6 +39,9 @@
           <li><a href="{{ site.social_media.linkedin }}" target="_blank">
             <img src="/assets/img/linkedin-logo.png" alt="LinkedIn" class="social-icon">
           </a></li>
+          <li><a href="{{ site.social_media.stackexchange }}" target="_blank">
+            <img src="/assets/img/se-logo.png" alt="Stackexchange" class="social-icon">
+          </a></li>
         </ul>
         {% endif %}
 
@@ -61,7 +64,9 @@
               <li><a href="{{ "/docs/" | relative_url }}" class="button">Docs</a></li>
             </ul>
           </nav>
-          {{ content }}
+          <main style="text-align: justify;">
+            {{ content }}
+          </main>
         </div>
       </section>
 
