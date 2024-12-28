@@ -30,17 +30,17 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
-
+         
         {% if site.show_socialmedia %}
         <ul class="social-media-links">
+          <li><a href="{{ site.social_media.stackexchange }}" target="_blank">
+            <img src="/assets/img/se-logo.png" alt="Stackexchange" class="social-icon">
+          </a></li>
           <li><a href="{{ site.social_media.github }}" target="_blank">
             <img src="/assets/img/github-logo.png" alt="GitHub" class="social-icon">
           </a></li>
           <li><a href="{{ site.social_media.linkedin }}" target="_blank">
             <img src="/assets/img/linkedin-logo.png" alt="LinkedIn" class="social-icon">
-          </a></li>
-          <li><a href="{{ site.social_media.stackexchange }}" target="_blank">
-            <img src="/assets/img/se-logo.png" alt="Stackexchange" class="social-icon">
           </a></li>
         </ul>
         {% endif %}

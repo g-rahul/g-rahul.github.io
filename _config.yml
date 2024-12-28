@@ -6,6 +6,6 @@ show_socialmedia: true
 google_analytics:
 theme: jekyll-theme-minimal
 social_media:
+  stackexchange: "https://stackoverflow.com/users/22665914/rahul-guruprakash"
   github: "https://github.com/g-rahul"
   linkedin: "https://linkedin.com/in/rahul-g-055720175"
-  stackexchange: "https://stackoverflow.com/users/22665914/rahul-guruprakash"
