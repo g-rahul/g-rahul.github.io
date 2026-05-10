@@ -4,9 +4,6 @@ title: Documents
 permalink: /docs/
 ---
 <br/>
-## Curriculum vitae 
-Please find my resume here, it was updated in Sep'25
+## Documents
 
-<object data="/assets/files/RAHUL_CV.pdf" type="application/pdf" width="150%" height="600px">
-  <p>Your browser does not support PDFs. <a href="path/to/your.pdf">Download the PDF</a>.</p>
-</object>
+My current resume and MIT-licensed LaTeX source are available on the [Resume](/resume/) page.

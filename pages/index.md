@@ -6,27 +6,25 @@ permalink: /
 <br/>
 ## About Me
 
-<div style="font-size:0.9em; color:#6a737d; margin:-6px 0 12px;">Updated Sep 2025</div>
+<div style="font-size:0.9em; color:#6a737d; margin:-6px 0 12px;">Updated May 2026</div>
 
-I'm a graduate student at North Carolina State University pursuing an M.S. in Computer Engineering. I also serve as a Graduate Research Assistant in the Department of Crop and Soil Sciences, where I work as an embedded systems engineer. I design AI HW platforms for precision and sustainable agriculture. Previously, I worked at Arm on System Architecture Compliance (2023-2025) and as an RF engineer at Qualcomm (2021–2023) in the Modem Software Team. I earned my B.E. in Electrical and Electronics Engineering from RVCE, Bangalore in 2021.
+I'm a graduate student at North Carolina State University pursuing an M.S. in Computer Engineering. I work as a Graduate Research Assistant in the Department of Crop and Soil Sciences, building embedded AI hardware for biomass mapping and precision agriculture. Before NC State, I worked at Arm on FF-A architecture compliance test suites and at Qualcomm on RF modem firmware validation.
 
-My expertise lies in embedded software designs, device driver development, and other hardware-centric software design. I have been working with Arm A and M Class devices since last three years. I am proficient in developing and deploying bare metal implementations for embedded targets, designing end-to-end protocol stacks, and bringing up software for application-class devices from scratch. Additionally, I have over five years of experience in PCB CAD design and I'm always eager to explore and experiment with interesting hardware projects.
+Most of my work sits close to hardware: bare-metal firmware, Linux driver interfaces, protocol stacks, board bring-up, and validation on virtual platforms and real targets. I have worked across Arm A-profile and M-class systems, FF-A compliance testing, EV charging protocols, RF subsystem validation, and production-ready embedded hardware.
 
-At Arm, I worked on a firmware validation framework for Arm A‑profile (A‑class) devices focused on platform security compliance. I was a contributor and maintainer of the FF‑A ACS (Firmware Framework for Arm A‑profile Architecture Compliance Suite), leading test design, fixes, and coverage to validate inter‑world communication and specification compliance.
+At Arm, I contributed to and maintained FF-A ACS, an open-source compliance suite for the Firmware Framework for Arm A-profile Architecture. My work focused on turning specification behavior into validation coverage across secure partition memory models, interrupt models, runtime state transitions, platform support, and reference firmware fixes.
 
-## What I do ?
+## What I Do
 
-### ARM
-If you're interested in my FF‑A work, please check out the FF‑A ACS project: <https://github.com/ARM-software/ff-a-acs>
+### Arm
+My FF-A work lives here: <https://github.com/ARM-software/ff-a-acs>
 
-### Nuttx
-I contribute to Nuttx as part of my PX4 FCU development efforts, Please checkout my Nuttx fork for ongoing efforts <https://github.com/g-rahul/indiflo-nuttx>.
+### NuttX
+I contribute to NuttX as part of my PX4 FCU development work. Current fork: <https://github.com/g-rahul/indiflo-nuttx>.
 
-What will you find in my commits:
+Recent work:
 - Nucleo H753Z Dev board MCU boot port
 - Cache bug fix for F765
 
 ### PX4
-FCU work is under progress. Please find FCU related config check-ins at <https://github.com/g-rahul/indiflo-PX4-Autopilot-Fork>
-
-
+PX4 FCU work is in progress. Config updates are here: <https://github.com/g-rahul/indiflo-PX4-Autopilot-Fork>
