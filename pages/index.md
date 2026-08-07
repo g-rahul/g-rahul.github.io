@@ -12,7 +12,7 @@ I'm an M.S. Computer Engineering student at North Carolina State University and 
 
 Previously at Arm, I delivered FF-A Architecture Compliance Suite releases for FF-A v1.1 and v1.2 and expanded bare-metal and Linux-based compliance coverage across TF-A, Hafnium, Xen, MMU/GIC, SMMUv3, and DMA isolation. At Qualcomm, I developed and validated RF-control firmware for the Snapdragon X35 5G Modem-RF System. Earlier, at Log9 Materials, I built EV charging firmware and helped stabilize it for deployment across more than 100 electric three-wheelers.
 
-Most of my work sits close to hardware: system software, firmware, Linux drivers, protocol stacks, board bring-up, and validation on virtual platforms and real targets. I also designed the hardware architecture and high-speed PCB layout for a custom NVIDIA Jetson Orin NX carrier board and worked on CPU value prediction and GPU cache-bypass research projects at NC State.
+Most of my work sits close to hardware: system software, firmware, Linux drivers, protocol stacks, board bring-up, and validation on virtual platforms and real targets. I also owned the hardware architecture and high-speed PCB layout for a custom NVIDIA Jetson Orin NX carrier board and achieved full first-spin bring-up, validating PCIe Gen4, Gigabit Ethernet, and USB 3.2. My academic work includes CPU value prediction and GPU cache-bypass research projects at NC State.
 
 ## Current Focus
 
