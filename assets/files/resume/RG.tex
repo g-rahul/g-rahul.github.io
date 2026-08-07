@@ -3,22 +3,39 @@
 % Copyright (c) 2026 Rahul Guruprakash
 
 \usepackage[left=0.6in,right=0.6in,top=0.5in,bottom=0.5in]{geometry}
-\usepackage{mathptmx}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{mathptmx}
+\else
+  \usepackage{fontspec}
+  \setmainfont{texgyretermes}[
+    Extension=.otf,
+    Ligatures=NoCommon,
+    UprightFont=*-regular,
+    BoldFont=*-bold,
+    ItalicFont=*-italic,
+    BoldItalicFont=*-bolditalic
+  ]
+\fi
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{xcolor}
-\usepackage[hidelinks,colorlinks=true,urlcolor=blue]{hyperref}
+\definecolor{classiclinkblue}{HTML}{0000CC}
+\usepackage[colorlinks=true,allcolors=classiclinkblue]{hyperref}
 \usepackage{textcomp}
 \usepackage{tabularx}
 
 \pagestyle{empty}
+\raggedbottom
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
 
 \titleformat{\section}
   {\normalfont\large\bfseries}{}{0em}{}
   [\titlerule]
-\titlespacing*{\section}{0pt}{9pt}{4pt}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
 
 % Two-line header: bold title left / bold meta right, italic subtitle left / italic meta right
 \newcommand{\entry}[4]{%
@@ -35,7 +52,13 @@
   \end{tabularx}\par
 }
 
-\setlist[itemize]{leftmargin=*,topsep=2pt,itemsep=1pt,parsep=0pt,after=\vspace{3pt}}
+\setlist[itemize]{leftmargin=*,topsep=2.5pt,itemsep=2pt,parsep=0pt,after=\vspace{3.5pt}}
+
+\hypersetup{
+  pdftitle={Rahul Guruprakash Resume},
+  pdfauthor={Rahul Guruprakash},
+  pdfsubject={Computer engineering, firmware, and system software resume}
+}
 
 \begin{document}
 
@@ -47,56 +70,9 @@
   \href{https://linkedin.com/in/rahul-g-055720175}{linkedin.com/in/rahul-g-055720175}
 \end{center}
 
-\section*{Education}
-\entry{North Carolina State University}{Raleigh, NC}
-      {Master of Science in Computer Engineering}{GPA: 4.0/4.0}
-\textbf{Relevant Coursework:} Advanced CPU Microarchitecture, Microarchitecture Security, Operating Systems\\
-Parallel Computing Architecture, General-Purpose GPU Architecture
-\vspace{4pt}
-
-\entry{R.V. College of Engineering}{Bangalore, India}
-      {Bachelor of Electrical and Electronics Engineering}{GPA: 8.3/10}
-
-\section*{Skills}
-\textbf{Programming Languages:} Embedded C/C++, AArch64 assembly, Python, Shell, Perl.\\[1pt]
-\textbf{Build Systems:} CMake, SCons, GNU/LLVM, Buildroot, BusyBox, Yocto.\\[1pt]
-\textbf{Debug Tools:} Trace32, GDB, OpenOCD, QEMU, Arm FVP, GTest.\\[1pt]
-\textbf{System Software:} Trusted Firmware-A, Hafnium, Xen, Linux kernel drivers, MCUboot, NuttX, FreeRTOS.\\[1pt]
-\textbf{Hardware Design:} Altium, KiCad.
-
-\section*{Professional Work Experience}
-
-\role{Arm - Engineer, System Compliance - ATG, Bangalore}{July 2023 -- August 2025}
-\begin{itemize}
-  \item Maintained and contributed to Arm's open-source \href{https://github.com/ARM-software/ff-a-acs}{FF-A Architecture Compliance Suite (ACS)} for A-profile platform compliance, writing portable C and assembly test cases.
-  \item Designed FF-A v1.1 and v1.2 compliance tests for secure partition memory and interrupt models, runtime state transitions, and Secure and Normal world communication paths.
-  \item Built ACS platform support for Arm Base FVP targets, adding AArch64 bring-up code and MMU, GIC, SMMU, and DMA validation flows.
-  \item Designed an ACS Linux kernel driver for user-space FF-A compliance and added NS-Hypervisor support for Android pKVM validation.
-  \item Contributed FF-A fixes to reference implementations, including Hafnium (SPMC), Xen (NS-Hypervisor), and TF-A.
-\end{itemize}
-
-\role{Qualcomm - Engineer / Associate Engineer, RF-Link Manager Team, Hyderabad}{October 2021 -- July 2023}
-\begin{itemize}
-  \item Contributed to Snapdragon X35 5G modem RF bring-up on the RF command/control path, implementing firmware support for script execution, transceiver boot, front-end programming, and RF configuration across RAT modes.
-  \item Built and maintained GTest-based validation for pre-silicon RF subsystem bring-up, using virtual platforms to surface firmware, RTL, and early-silicon issues.
-  \item Designed CRC checks for AXI linked-list DMA programming traffic between the modem DSP and RF subsystem to detect RF front-end programming corruption.
-  \item Introduced section-gapped RF firmware images to work around an instruction-decoder hardware issue, coordinating compiler support with the tools team.
-\end{itemize}
-
-\role{Log9 Materials - Engineer, Embedded Systems, Bangalore}{January 2021 -- September 2021}
-\begin{itemize}
-  \item Built charging-controller firmware for Electric Vehicle Charging Controller (EVCC) hardware used in three-wheeled electric autos.
-  \item Developed the EV charging protocol stack with an OSI-layered implementation of GB/T 27930 and SAE J1939/21 over CAN, adding diagnostics and in-field integration support.
-  \item Designed EVCC front-end hardware in Altium around a low-power Cortex-M4 SoC, integrating CAN, power, memory, and battery management interfaces.
-  \item Brought EVCC hardware into production deployment across 100+ three-wheeled electric autos, including battery management system integration.
-\end{itemize}
-
-\section*{Academic Research}
-
-\role{Graduate Research Assistant - North Carolina State University}{August 2025 -- Present}
-\begin{itemize}
-  \item Develop embedded AI hardware platforms for biomass mapping and precision agriculture workflows.
-  \item Build a custom carrier board for the NVIDIA Orin NX compute module, covering signal integrity and high-speed layout for PCIe Gen4, GbE, and USB 3.2.
-\end{itemize}
+\input{sections/education.tex}
+\input{sections/skills.tex}
+\input{sections/experience.tex}
+\input{sections/academics.tex}
 
 \end{document}

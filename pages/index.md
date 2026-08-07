@@ -6,18 +6,26 @@ permalink: /
 <br/>
 ## About Me
 
-<div style="font-size:0.9em; color:#6a737d; margin:-6px 0 12px;">Updated May 2026</div>
+<div style="font-size:0.9em; color:#6a737d; margin:-6px 0 12px;">Updated August 2026</div>
 
-I'm a graduate student at North Carolina State University pursuing an M.S. in Computer Engineering. I work as a Graduate Research Assistant in the Department of Crop and Soil Sciences, building embedded AI hardware for biomass mapping and precision agriculture. Before NC State, I worked at Arm on FF-A architecture compliance test suites and at Qualcomm on RF modem firmware validation.
+I'm an M.S. Computer Engineering student at North Carolina State University and a Silicon Engineering intern at Arm in Austin. My current work focuses on system-level validation for a CMN interconnect and AI accelerator, spanning Fixed Virtual Platforms, silicon bring-up, firmware, Linux kernel and user-space tests, DDR/HBM memory traffic, and Yocto/OpenEmbedded platform enablement.
 
-Most of my work sits close to hardware: bare-metal firmware, Linux driver interfaces, protocol stacks, board bring-up, and validation on virtual platforms and real targets. I have worked across Arm A-profile and M-class systems, FF-A compliance testing, EV charging protocols, RF subsystem validation, and production-ready embedded hardware.
+Previously at Arm, I delivered FF-A Architecture Compliance Suite releases for FF-A v1.1 and v1.2 and expanded bare-metal and Linux-based compliance coverage across TF-A, Hafnium, Xen, MMU/GIC, SMMUv3, and DMA isolation. At Qualcomm, I developed and validated RF-control firmware for the Snapdragon X35 5G Modem-RF System. Earlier, at Log9 Materials, I built EV charging firmware and helped stabilize it for deployment across more than 100 electric three-wheelers.
 
-At Arm, I contributed to and maintained FF-A ACS, an open-source compliance suite for the Firmware Framework for Arm A-profile Architecture. My work focused on turning specification behavior into validation coverage across secure partition memory models, interrupt models, runtime state transitions, platform support, and reference firmware fixes.
+Most of my work sits close to hardware: system software, firmware, Linux drivers, protocol stacks, board bring-up, and validation on virtual platforms and real targets. I also designed the hardware architecture and high-speed PCB layout for a custom NVIDIA Jetson Orin NX carrier board and worked on CPU value prediction and GPU cache-bypass research projects at NC State.
 
-## What I Do
+## Current Focus
 
-### Arm
-My FF-A work lives here: <https://github.com/ARM-software/ff-a-acs>
+- System-level SoC and accelerator validation
+- Linux kernel, user-space, firmware, and ML runtime integration
+- Yocto/OpenEmbedded platform enablement
+- Computer architecture and embedded AI hardware
+
+## Selected Open-Source Work
+
+My FF-A compliance work lives in Arm's [FF-A Architecture Compliance Suite](https://github.com/ARM-software/ff-a-acs).
+
+## Additional Embedded Projects
 
 ### NuttX
 I contribute to NuttX as part of my PX4 FCU development work. Current fork: <https://github.com/g-rahul/indiflo-nuttx>.

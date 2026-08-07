@@ -1,0 +1,29 @@
+\section*{Professional Experience}
+
+\role{Arm -- Intern, Silicon Engineering Team, Austin, TX}{May 2026 -- Present}
+\begin{itemize}
+  \item Defined the system-level validation strategy for the CMN interconnect and AI accelerator; developed kernel and user-space tests on Fixed Virtual Platforms and brought them up on silicon. Added system-level memory testing for DDR/HBM traffic to emulate AI workloads and system behavior across firmware, the kernel, and ML runtime services.
+  \item Brought up Yocto/OpenEmbedded extensions for platform firmware and created a customized Linux root filesystem for SoC QA.
+\end{itemize}
+
+\role{Arm -- Engineer, System Compliance (ATG), Bangalore, India}{July 2023 -- August 2025}
+\begin{itemize}
+  \item Delivered Arm's open-source \href{https://github.com/ARM-software/ff-a-acs}{FF-A Architecture Compliance Suite (ACS)} releases for FF-A v1.1 and v1.2, adding self-checking tests for secure-partition messaging, memory sharing, interrupts, and notifications.
+  \item Identified FF-A conformance issues across TF-A, Hafnium, and Xen and helped drive fixes through ACS testing.
+  \item Expanded bare-metal FF-A coverage on Arm Base FVP using MMU/GIC support and an SMMUv3 test engine, covering memory permissions, interrupt delivery, and DMA isolation.
+  \item Designed a Linux kernel driver and user-space port for FF-A ACS, enabling FF-A compliance validation from Linux.
+\end{itemize}
+
+\role{Qualcomm -- Engineer, RF Software, Hyderabad, India}{October 2021 -- July 2023}
+\begin{itemize}
+  \item Developed RF-control firmware for the Snapdragon X35 5G Modem-RF System across the modem DSP and a dedicated RF-control processor, supporting wireless-transceiver image loading, initialization, and RF-front-end programming.
+  \item Built GoogleTest-based unit tests for firmware validation, catching functional and integration bugs during virtual-platform testing, FPGA emulation, and silicon bring-up.
+  \item Added software CRC checks to RF-control firmware to verify the integrity of DMA payloads received from the modem DSP.
+  \item Mitigated an instruction-decoder hardware issue through a firmware image-layout workaround and coordinated toolchain support with the compiler team.
+\end{itemize}
+
+\role{Log9 Materials -- Engineer, Embedded Systems, Bangalore, India}{January 2021 -- September 2021}
+\begin{itemize}
+  \item Implemented a GB/T 27930 EV charging protocol stack on an Arm Cortex-M MCU, including SAE J1939/21 message handling and multi-packet transport over CAN.
+  \item Stabilized firmware for production on 100+ electric three-wheelers; built a CAN bootloader, test framework, and validation jig.
+\end{itemize}
